@@ -1,0 +1,97 @@
+.form {
+  width: 700px;
+  background-color: rgb(255, 187, 17);
+  background-position: 21px 30px, 19px 30px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+  background-repeat: repeat, repeat, repeat, repeat, repeat, repeat;
+  background-attachment: scroll, scroll, scroll, scroll, scroll, scroll;
+  background-image: radial-gradient(
+      circle farthest-side at 0% 50%,
+      rgb(255, 187, 17) 23.5%,
+      rgba(240, 166, 17, 0) 0px
+    ),
+    radial-gradient(
+      circle farthest-side at 0% 50%,
+      rgb(187, 119, 17) 24%,
+      rgba(240, 166, 17, 0) 0px
+    ),
+    linear-gradient(
+      rgb(255, 187, 17) 14%,
+      rgba(240, 166, 17, 0) 0px,
+      rgba(240, 166, 17, 0) 85%,
+      rgb(255, 187, 17) 0px
+    ),
+    linear-gradient(
+      150deg,
+      rgb(255, 187, 17) 24%,
+      rgb(187, 119, 17) 0px,
+      rgb(187, 119, 17) 26%,
+      rgba(240, 166, 17, 0) 0px,
+      rgba(240, 166, 17, 0) 74%,
+      rgb(187, 119, 17) 0px,
+      rgb(187, 119, 17) 76%,
+      rgb(255, 187, 17) 0px
+    ),
+    linear-gradient(
+      30deg,
+      rgb(255, 187, 17) 24%,
+      rgb(187, 119, 17) 0px,
+      rgb(187, 119, 17) 26%,
+      rgba(240, 166, 17, 0) 0px,
+      rgba(240, 166, 17, 0) 74%,
+      rgb(187, 119, 17) 0px,
+      rgb(187, 119, 17) 76%,
+      rgb(255, 187, 17) 0px
+    ),
+    linear-gradient(
+      90deg,
+      rgb(187, 119, 17) 2%,
+      rgb(255, 187, 17) 0px,
+      rgb(255, 187, 17) 98%,
+      rgb(187, 119, 17) 0%
+    );
+  background-origin: padding-box, padding-box, padding-box, padding-box,
+    padding-box, padding-box;
+  background-clip: border-box, border-box, border-box, border-box, border-box,
+    border-box;
+  background-size: 40px 60px;
+  --darkreader-inline-bgcolor: #cc9100;
+  --darkreader-inline-bgimage: radial-gradient(
+      circle farthest-side at 0% 50%,
+      #cc9100 23.5%,
+      rgba(201, 138, 13, 0) 0px
+    ),
+    radial-gradient(
+      circle farthest-side at 0% 50%,
+      #9e640f 24%,
+      rgba(201, 138, 13, 0) 0px
+    ),
+    linear-gradient(
+      #cc9100 14%,
+      rgba(201, 138, 13, 0) 0px,
+      rgba(201, 138, 13, 0) 85%,
+      #cc9100 0px
+    ),
+    linear-gradient(
+      150deg,
+      #cc9100 24%,
+      #9e640f 0px,
+      #9e640f 26%,
+      rgba(201, 138, 13, 0) 0px,
+      rgba(201, 138, 13, 0) 74%,
+      #9e640f 0px,
+      #9e640f 76%,
+      #cc9100 0px
+    ),
+    linear-gradient(
+      30deg,
+      #cc9100 24%,
+      #9e640f 0px,
+      #9e640f 26%,
+      rgba(201, 138, 13, 0) 0px,
+      rgba(201, 138, 13, 0) 74%,
+      #9e640f 0px,
+      #9e640f 76%,
+      #cc9100 0px
+    ),
+    linear-gradient(90deg, #9e640f 2%, #cc9100 0px, #cc9100 98%, #9e640f 0%);
+}
